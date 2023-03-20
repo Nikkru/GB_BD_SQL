@@ -11,5 +11,5 @@
 ![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/3_1.jpg)
 - Выберите все заказы. В зависимости от поля order_status выведите столбец full_order_status:
 OPEN – «Order is in open state» ; CLOSED - «Order is closed»; CANCELLED -  «Order is cancelled»
-![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_1/4.jpg)
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/3_2.jpg)
 
