@@ -1,15 +1,15 @@
 # Семинар 3. Домашнее задание
-##  SQL – создание объектов, простые запросы выборки
-### 1. Используя операторы языка SQL, создайте таблицу “sales”. Заполните ее данными.
- ![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/1.jpg)
-### 2.  Для данных таблицы “sales” укажите тип заказа в зависимости от кол-ва : 
-меньше 100  -    Маленький заказ
-от 100 до 300 - Средний заказ
-больше 300  -     Большой заказ
-![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/2.jpg)
-### 3. Создайте таблицу “orders”, заполните ее значениями
-![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/3_1.jpg)
-- Выберите все заказы. В зависимости от поля order_status выведите столбец full_order_status:
-OPEN – «Order is in open state» ; CLOSED - «Order is closed»; CANCELLED -  «Order is cancelled»
-![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_2/3_2.jpg)
-
+##  SQL – выборка данных, сортировка, агрегатные функции
+### 1. Отсортируйте данные по полю заработная плата (salary) в порядке: убывания; возрастания для каждой группы
+ ![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_01_1.jpg)
+ ![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_01_2.jpg)
+### 2.  Выведите 5 максимальных заработных плат (saraly): 
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_2.jpg)
+### 3. Посчитайте суммарную зарплату (salary) по каждой специальности (роst)
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_3.jpg)
+### 4. Найдите кол-во сотрудников с специальностью (post) «Рабочий» в возрасте от 24 до 49 лет включительно.
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_4.jpg)
+### 5. Найдите количество специальностей
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_5.jpg)
+### 6. Выведите специальности, у которых средний возраст сотрудников меньше 30 лет
+![](https://github.com/Nikkru/GB_BD_SQL/blob/main/Homework_3/3_6.jpg)
